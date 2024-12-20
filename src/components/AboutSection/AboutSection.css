@@ -1,0 +1,81 @@
+/* About Section Styles */
+.about-section {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .mission-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .how-to-learn-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  .learning-method-text {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .learning-methods {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .learning-methods li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .learning-methods li strong {
+    color: #007BFF;
+  }
+  
+  .call-to-action {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: #007BFF;
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 1.5rem;
+    }
+  
+    .mission-text, .learning-method-text {
+      font-size: 1rem;
+    }
+  
+    .call-to-action {
+      font-size: 1.1rem;
+    }
+  }
+  
